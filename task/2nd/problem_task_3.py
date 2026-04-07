@@ -1,0 +1,7 @@
+pythonCredit = float(input("파이썬 학점을 입력하시오:"))
+mobileCredit = float(input("모바일 학점을 입력하시오:"))
+exelCredit = float(input("엑셀 학점을 입력하시오:"))
+pythonScore = float(input("파이썬 성적을 입력하시오:"))
+mobileScore = float(input("모바일 성적을 입력하시오:"))
+exelScore = float(input("엑셀 성적을 입력하시오:"))
+print("평균 학점은 %f점 입니다" %((pythonScore * pythonCredit + mobileScore * mobileCredit + exelScore * exelCredit) / (pythonCredit + mobileCredit + exelCredit)))
